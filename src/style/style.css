@@ -1,0 +1,44 @@
+body{
+    background-color: #EDD263;
+}
+#nav ul li a{
+    color: black;
+}
+.navbar-brand{
+    color: black;
+}
+.navbar-nav{
+    float: right;
+}
+#search-food{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+#search-food button{
+    margin-top: 10px;
+}
+#display-food{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    text-align: center;
+    grid-gap: 50px;
+    margin-top: 100px;
+}
+#display-food img{
+    width: 150px;
+}
+#display-food-details{
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    background-color: #ffeebf;
+    color: black;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#display-food-details img{
+    width: 100%;
+    padding: 0px 0px;
+}
